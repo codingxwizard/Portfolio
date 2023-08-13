@@ -5,7 +5,7 @@ export default function Skills() {
         <div className="flex justify-center items-center">
         <div className="h-[383px] w-[1066px] bg-black bg-opacity-10">
             <h1 className="text-white text-[128px] font-Imbue font-semibold text-center tracking-widest leading-none">
-            LET'S CREATE<br/>
+            LET&apos;S CREATE<br/>
             MAGIC<br/>
             TOGETHER<br/>
             </h1>
