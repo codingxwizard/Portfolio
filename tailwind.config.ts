@@ -5,10 +5,12 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        Oswald : ['Oswald', "sans-serif"],
-        Archivo : ["Archivo Black", "sans-serif"],
-        Imbue : ["Imbue", "serif"],
-        Inter : ["Inter", "sans-serif"],
+        Oswald: ['Oswald', "sans-serif"],
+        Archivo: ["Archivo Black", "sans-serif"],
+        Imbue: ["Imbue", "serif"],
+        Inter: ["Inter", "sans-serif"],
+        Viga: ["Viga", "sans-serif"],
+        Bitter: ["Bitter", "sans-serif"],
       },
       keyframes: {
         marquee: {
@@ -20,13 +22,13 @@ export default {
           '100%': { transform: 'translateX(0%)' },
         },
       },
-      animation : {
+      animation: {
         'spin-slow-30': 'spin 30s linear infinite',
         'spin-slow-25': 'spin 25s linear infinite',
         'spin-slow-10': 'spin 10s linear infinite',
-        'marquee-infinite' : 'marquee 25s linear infinite',
-        },
+        'marquee-infinite': 'marquee 25s linear infinite',
       },
     },
+  },
   plugins: [],
 } satisfies Config;

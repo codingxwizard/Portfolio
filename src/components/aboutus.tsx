@@ -1,35 +1,33 @@
-export default function AboutUs(){
-    return (
-        <div>
-          <div className="flex justify-center">
-            <h1 className="text-white text-9xl mt-16 pr-8 font-Imbue tracking-widest">ABOUT US</h1>
-            <img src="/about-me.png" className="h-40 mt-10"/>
-          </div>
-          <div className="flex justify-center gap-20 p-20">
-            <img src="about-me-1.png" className="h-[426px]"></img>
-            <div>
-              <p className="text-white font-Inter font-light pt-2 pb-4 tracking-wide">
-                At Coding Wizards, we are a passionate and<br/>
-                professional group of coders dedicated to crafting<br/>
-                innovative and seamless technological solutions for<br/>
-                clients worldwide.With our wizardry in web<br/>
-                development, web apps, software engineering, and<br/>
-                Android applications, we deliver top-notch services<br/>
-                that elevate businesses and organizations to new<br/>
-                heights.<br/>
-                Our mission is simple yet powerful - to harness the<br/>
-                power of cutting-edge technologies and leverage<br/>
-                our expertise to provide exceptional tech solutions<br/>
-                that empower businesses to thrive in the digital<br/>
-                age. We aim to be the go-to destination for clients<br/>
-                seeking reliable, efficient, and transformative tech<br/>
-                services.<br/>
-              </p>
-              <div className="flex justify-center">
-                <button type="button" className="focus:outline-none text-white shadow-[0px_0px_9px_0px_#F92D56] bg-[#F92D56] hover:bg-[#F92D56] focus:ring-4 focus:ring-[#F92D56] font-medium rounded-lg text-sm px-5 py-1 mr-2 mb-2 dark:bg-[#F92D56] dark:hover:bg-[#F92D56] dark:focus:ring-[#F92D56]">Explore More</button>
-              </div>
-            </div>
-          </div>
+export default function AboutUs() {
+  return (
+    <div className="flex flex-col my-14 md:gap-20 gap-10">
+      <div className="flex justify-center items-center gap-4">
+        <img src="/about-me.png" className="h-40" />
+        <h1 className="text-white md:text-8xl sm:text-7xl text-5xl font-Viga tracking-widest">About Us</h1>
+      </div>
+      <div className="flex md:flex-row flex-col justify-center md:gap-10 gap-5 md:px-40 px-20">
+        <img src="about-me-1.png" className="md:w-1/2 w-full object-contain rounded"></img>
+        <div className="flex flex-col w-full gap-5">
+          <p className="text-white font-Bitter text-lg tracking-wide">
+            At Coding Wizards, we are a passionate and
+            professional group of coders dedicated to crafting
+            innovative and seamless technological solutions for
+            clients worldwide.With our wizardry in web
+            development, web apps, software engineering, and
+            Android applications, we deliver top-notch services
+            that elevate businesses and organizations to new
+            heights.<br />
+            Our mission is simple yet powerful - to harness the
+            power of cutting-edge technologies and leverage
+            our expertise to provide exceptional tech solutions
+            that empower businesses to thrive in the digital
+            age. We aim to be the go-to destination for clients
+            seeking reliable, efficient, and transformative tech
+            services.
+          </p>
+          <button type="button" className="focus:outline-none text-white shadow-[0px_0px_9px_0px_#F92D56] bg-[#F92D56] hover:bg-[#F92D56] w-fit rounded-lg px-5 p-2 dark:bg-[#F92D56] dark:hover:bg-[#F92D56] dark:focus:ring-[#F92D56]">Explore More</button>
         </div>
-    )
+      </div>
+    </div>
+  )
 }

@@ -1,17 +1,14 @@
 export default function HomeBack() {
-    return (
-        <div className="flex min-h-[810px] bg-[#000627] dark:bg-[#000627] bg-center bg-cover gap-6 justify-center">
-        <div className="flex-col">
-          <h1 className="text-white text-[88px] font-Imbue tracking-widest mt-28 leading-tight">Welcome to the<br/>
-          Enchanted Realm<br/>
-          of <span className="text-[#DD2232] font-semibold">Coding Wizards!</span>
-          </h1>
-          <p className="text-white font-light text-base font-Inter tracking-widest">Unleash the Magic of Web Development and Experience<br/> Extraordinary Digital Creations</p>
-          <div className="flex justify-center">
-            <button type="button" className="text-white mt-8 shadow-[0px_0px_16px_0px_#750F87] bg-[#750F87] hover:bg-[#750F87] focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold rounded-lg text-sm px-4 py-2 text-center md:mr-0 dark:bg-[#750F87] dark:hover:bg-[#750F87] dark:focus:ring-[#750F87]">Discover our work</button>
-          </div>
-        </div>
-        <img src="/side-img.png" className="h-[660px] mt-6 hidden sm:block"></img>
+  return (
+    <div className="flex md:flex-row flex-col-reverse  min-h-[calc(100vh-4rem)] w-full bg-contain bg-right bg-no-repeat dark:bg-[#000627] gap-6">
+      <div className="flex flex-col md:w-1/2 w-full justify-center pl-14 gap-4">
+        <h1 className="text-white text-[65px] font-Viga tracking-widest leading-tight">Welcome to the Enchanted Realm of<br />
+          <span className="text-[#DD2232] font-semibold">Coding Wizards!</span>
+        </h1>
+        <p className="text-white font-medium font-Bitter tracking-widest">Unleash the Magic of Web Development and Experience<br /> Extraordinary Digital Creations</p>
+        <button type="button" className="text-white font-Bitter w-fit shadow-[0px_0px_16px_0px_#750F87] bg-[#750F87] hover:bg-[#7f2d8d] focus:outline-none font-medium text-lg rounded-lg px-4 p-2 text-center md:mr-0 dark:bg-[#750F87] dark:hover:bg-[#750F87]">Discover our work</button>
       </div>
-    )
+      <img src="/side-img.png" className="md:w-1/2 w-full object-contain float"></img>
+    </div>
+  )
 } 
