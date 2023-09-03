@@ -9,7 +9,7 @@ export default {
         Archivo: ["Archivo Black", "sans-serif"],
         Imbue: ["Imbue", "serif"],
         Inter: ["Inter", "sans-serif"],
-        Viga: ["Viga", "sans-serif"],
+        Alice: ["Alice", "sans-serif"],
         Bitter: ["Bitter", "sans-serif"],
       },
       keyframes: {

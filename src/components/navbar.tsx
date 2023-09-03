@@ -18,7 +18,7 @@ export default function NavBar() {
                     </button>
                 </div>
                 <div className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
-                    <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 border-gray-700">
+                    <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border text-lg rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 border-gray-700">
                         <li>
                             <Link href="#" className="block py-2 pl-3 pr-4 text-white bg-[#750F87] rounded md:bg-transparent md:text-[#750F87] md:dark:text-white hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#750F87] md:p-0 md:dark:hover:text-[#750F87]">Services</Link>
                         </li>
