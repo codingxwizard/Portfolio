@@ -43,10 +43,10 @@ export default function SkillCards() {
         <img src="/mystical-solutions.png" className="h-36"></img>
         <h1>MYSTICAL SOLUTIONS</h1>
       </section>
-      <section className="flex text-white gap-8 px-10 ">
+      <section className="flex text-white overflow-x-auto justify-center gap-8 px-10 ">
         {items.map((item, index) => {
-          return <div key={index} className={`rounded-xl cursor-pointer flex flex-col gap-3 w-[18%] p-4 bg-[#242424]`}>
-            <img src={item.icon + ".png"} className={`h-[120px] rounded-lg object-contain p-5 bg-[${item.bgcolor}]`} />
+          return <div key={index} className='rounded-xl flex-shrink-0 cursor-pointer flex flex-col gap-3 w-[220px] p-4 bg-[#242424]'>
+            <img src={item.icon + ".png"} className={`h-[120px] rounded-lg object-contain p-5`} style={{ backgroundColor: item.bgcolor }} />
             <h2 className="font-Alice text-xl">{item.title.toUpperCase()}</h2>
             <p className="text-sm">{item.desc}</p>
           </div>
